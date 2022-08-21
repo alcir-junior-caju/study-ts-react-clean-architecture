@@ -1,0 +1,11 @@
+{
+  "name": "react-clean",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alcir-junior-caju/study-ts-react-clean-architecture.git",
+  "author": "Alcir Junior <junior@cajucomunica.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.3"
+  }
+}
