@@ -24,6 +24,9 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test:watch": "test -- --watch",
+    "test:staged": "jest -- --findRelatedTests",
+    "test:ci": "jest -- --coverage"
   }
 }
