@@ -6,6 +6,7 @@
   "author": "Alcir Junior <junior@cajucomunica.com.br>",
   "license": "MIT",
   "devDependencies": {
+    "@faker-js/faker": "^7.4.0",
     "@types/jest": "^28.1.7",
     "@types/node": "^18.7.8",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
