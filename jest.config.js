@@ -91,9 +91,12 @@ module.exports = {
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   moduleNameMapper: {
-    'domain/(.*)': '<rootDir>/src/domain/$1',
-    'data/(.*)': '<rootDir>/src/data/$1',
-    'protocols/(.*)': '<rootDir>/src/protocols/$1'
+    '^@data/protocols$': '<rootDir>/src/data/protocols/index.ts',
+    '^@data/test$': '<rootDir>/src/data/test/index.ts',
+    '^@data/usecases$': '<rootDir>/src/data/usecases/index.ts',
+    '^@domain/models$': '<rootDir>/src/domain/models/index.ts',
+    '^@domain/test$': '<rootDir>/src/domain/test/index.ts',
+    '^@domain/usecases$': '<rootDir>/src/domain/usecases/index.ts'
   },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
