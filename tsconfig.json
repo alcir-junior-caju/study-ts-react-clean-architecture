@@ -40,6 +40,7 @@
       "@domain/models": ["domain/models/index.ts"],
       "@domain/test": ["domain/test/index.ts"],
       "@domain/usecases": ["domain/usecases/index.ts"],
+      "@domain/errors": ["domain/errors/index.ts"],
     },                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */

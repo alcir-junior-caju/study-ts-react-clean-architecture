@@ -96,7 +96,8 @@ module.exports = {
     '^@data/usecases$': '<rootDir>/src/data/usecases/index.ts',
     '^@domain/models$': '<rootDir>/src/domain/models/index.ts',
     '^@domain/test$': '<rootDir>/src/domain/test/index.ts',
-    '^@domain/usecases$': '<rootDir>/src/domain/usecases/index.ts'
+    '^@domain/usecases$': '<rootDir>/src/domain/usecases/index.ts',
+    '^@domain/errors$': '<rootDir>/src/domain/errors/index.ts'
   },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
